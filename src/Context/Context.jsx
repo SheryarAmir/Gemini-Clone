@@ -22,6 +22,11 @@ const delayPara=(index, nextWord )=>{
 
 }
 
+const newChart=()=>{
+    setLoding(false)
+    setShowResult(false )
+}
+
     const onSent = async (prompt)=>{
 
         setResultData("")
@@ -81,6 +86,7 @@ loading,
 resultData,
 input,
 setInput,
+newChart,
 
 
 

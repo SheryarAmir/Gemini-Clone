@@ -197,3 +197,26 @@ width: 40px;
     font-weight: 300;
     line-height: 1.8;
 }
+
+
+@media (max-width:600px){
+
+    .main-bottom input{
+  flex: none;
+  width: 150px;
+    }
+    .main-bottom img{
+        width: 20px;
+    }
+    .seaarch-box{
+        padding:  10px ;
+    }
+    .three-div {
+        gap: 5px;
+    }
+
+    .bottom-info {
+        display: none;
+    }
+}
+

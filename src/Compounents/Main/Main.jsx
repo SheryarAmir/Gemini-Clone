@@ -77,7 +77,7 @@ const Main = () => {
         <div className="three-div">
             <img src={assets.gallery_icon} alt="" />
             <img src={assets.mic_icon} alt="" />
-            <img  onClick={()=>onSent()} src={assets.send_icon} alt="" />
+            {input?<img  onClick={()=>onSent()} src={assets.send_icon} alt="" />:null}
         </div>
     </div>
     <p className='bottom-info'>Gemini may Display inaccurate info, including about people, so doble-check its responses. you privacy and Gemini Apps </p>
